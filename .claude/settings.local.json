@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:shipbottombrewery.com)",
+      "Bash(tail:*)",
+      "Bash(cd /c/users/opmmo/source/repos/sbb-vibe && npm run build 2>&1)",
+      "Bash(cd /c/users/opmmo/source/repos/sbb-vibe && npx tsc --noEmit 2>&1)"
+    ]
+  }
+}
