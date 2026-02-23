@@ -97,7 +97,7 @@ export default function Footer() {
           {/* Link columns */}
           {Object.entries(footerLinks).map(([section, links]) => (
             <div key={section}>
-              <h3 className="text-white font-semibold text-sm uppercase tracking-wider mb-4">
+              <h3 className="text-white font-bold text-xs uppercase tracking-widest mb-4">
                 {section}
               </h3>
               <ul className="space-y-2">

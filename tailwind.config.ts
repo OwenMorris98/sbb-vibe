@@ -10,20 +10,20 @@ const config: Config = {
     extend: {
       colors: {
         navy: {
-          DEFAULT: "#0f2b4e",
-          dark: "#091d35",
-          light: "#1a3f6f",
+          DEFAULT: "#414042",
+          dark: "#1e1d1f",
+          light: "#5f5d61",
         },
         sand: {
-          DEFAULT: "#f4efe4",
-          dark: "#e8ddc8",
+          DEFAULT: "#f2ede0",
+          dark: "#e5dcc8",
         },
-        ocean: "#1a6b9e",
-        amber: "#e8833a",
+        ocean: "#6AA095",
+        amber: "#D85423",
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
-        display: ["var(--font-display)", "Georgia", "serif"],
+        sans: ["var(--font-barlow)", "system-ui", "sans-serif"],
+        display: ["var(--font-bebas)", "Georgia", "serif"],
       },
     },
   },

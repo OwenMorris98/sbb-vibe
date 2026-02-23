@@ -13,10 +13,10 @@ export default function ContactPage() {
       {/* Page header */}
       <section className="bg-navy-dark text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-amber text-sm font-semibold uppercase tracking-[0.3em] mb-3">
+          <p className="text-amber text-xs font-bold uppercase tracking-[0.35em] mb-3">
             Get in Touch
           </p>
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Contact Us</h1>
+          <h1 className="text-5xl sm:text-6xl tracking-wide mb-4">Contact Us</h1>
           <p className="text-gray-300 text-lg max-w-2xl">
             For inquiries, please fill out the form below and we&apos;ll get
             back to you as soon as possible.

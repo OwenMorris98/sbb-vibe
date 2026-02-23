@@ -13,10 +13,10 @@ export default function LocationsPage() {
       {/* Page header */}
       <section className="bg-navy-dark text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-amber text-sm font-semibold uppercase tracking-[0.3em] mb-3">
+          <p className="text-amber text-xs font-bold uppercase tracking-[0.35em] mb-3">
             Come See Us
           </p>
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Our Locations</h1>
+          <h1 className="text-5xl sm:text-6xl tracking-wide mb-4">Our Locations</h1>
           <p className="text-gray-300 text-lg max-w-2xl">
             Three locations to enjoy Ship Bottom Brewery beer — two on Long
             Beach Island and one in the heart of Pennsylvania orchard country.

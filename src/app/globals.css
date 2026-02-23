@@ -10,19 +10,23 @@
   body {
     @apply bg-sand text-navy-dark antialiased;
   }
+
+  h1 {
+    @apply font-display;
+  }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-amber hover:bg-amber/90 text-white font-semibold px-6 py-3 rounded transition-colors inline-block;
+    @apply bg-amber hover:bg-amber/90 text-white font-bold text-sm uppercase tracking-widest px-8 py-3 rounded-full transition-colors inline-block;
   }
 
   .btn-outline {
-    @apply border-2 border-white text-white hover:bg-white hover:text-navy-dark font-semibold px-6 py-3 rounded transition-colors inline-block;
+    @apply border-2 border-white text-white hover:bg-white hover:text-navy-dark font-bold text-sm uppercase tracking-widest px-8 py-3 rounded-full transition-colors inline-block;
   }
 
   .section-heading {
-    @apply text-3xl sm:text-4xl font-bold text-navy-dark;
+    @apply text-3xl sm:text-4xl font-display text-navy-dark;
   }
 
   .section-subheading {
